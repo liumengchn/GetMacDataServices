@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BB5AB95201B116300EFD656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB5AB94201B116300EFD656 /* AppDelegate.swift */; };
+		1BB5AB97201B116300EFD656 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB5AB96201B116300EFD656 /* ViewController.swift */; };
+		1BB5AB99201B116300EFD656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB5AB98201B116300EFD656 /* Assets.xcassets */; };
+		1BB5AB9C201B116300EFD656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB5AB9A201B116300EFD656 /* Main.storyboard */; };
+		F3F4230121286930E1AB6F66 /* Pods_GetMacDataServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8385EE02145FFE20689EEB /* Pods_GetMacDataServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D8385EE02145FFE20689EEB /* Pods_GetMacDataServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetMacDataServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB5AB91201B116300EFD656 /* GetMacDataServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetMacDataServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB5AB94201B116300EFD656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BB5AB96201B116300EFD656 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BB5AB98201B116300EFD656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BB5AB9B201B116300EFD656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BB5AB9D201B116300EFD656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB5AB9E201B116300EFD656 /* GetMacDataServices.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GetMacDataServices.entitlements; sourceTree = "<group>"; };
+		A36C4F91D0D8891004220567 /* Pods-GetMacDataServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetMacDataServices.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetMacDataServices/Pods-GetMacDataServices.release.xcconfig"; sourceTree = "<group>"; };
+		C53EA1D5B4A3CDA2EA0CA76F /* Pods-GetMacDataServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetMacDataServices.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetMacDataServices/Pods-GetMacDataServices.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BB5AB8E201B116300EFD656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F4230121286930E1AB6F66 /* Pods_GetMacDataServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BB5AB88201B116300EFD656 = {
+			isa = PBXGroup;
+			children = (
+				1BB5AB93201B116300EFD656 /* GetMacDataServices */,
+				1BB5AB92201B116300EFD656 /* Products */,
+				B0F36ED24E70D93D8B39C491 /* Pods */,
+				ADC4AFE203F1632C77EB5C1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1BB5AB92201B116300EFD656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BB5AB91201B116300EFD656 /* GetMacDataServices.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BB5AB93201B116300EFD656 /* GetMacDataServices */ = {
+			isa = PBXGroup;
+			children = (
+				1BB5AB94201B116300EFD656 /* AppDelegate.swift */,
+				1BB5AB96201B116300EFD656 /* ViewController.swift */,
+				1BB5AB98201B116300EFD656 /* Assets.xcassets */,
+				1BB5AB9A201B116300EFD656 /* Main.storyboard */,
+				1BB5AB9D201B116300EFD656 /* Info.plist */,
+				1BB5AB9E201B116300EFD656 /* GetMacDataServices.entitlements */,
+			);
+			path = GetMacDataServices;
+			sourceTree = "<group>";
+		};
+		ADC4AFE203F1632C77EB5C1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D8385EE02145FFE20689EEB /* Pods_GetMacDataServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0F36ED24E70D93D8B39C491 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C53EA1D5B4A3CDA2EA0CA76F /* Pods-GetMacDataServices.debug.xcconfig */,
+				A36C4F91D0D8891004220567 /* Pods-GetMacDataServices.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BB5AB90201B116300EFD656 /* GetMacDataServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BB5ABA1201B116300EFD656 /* Build configuration list for PBXNativeTarget "GetMacDataServices" */;
+			buildPhases = (
+				674AD2E7C8833BC919CDAFB8 /* [CP] Check Pods Manifest.lock */,
+				1BB5AB8D201B116300EFD656 /* Sources */,
+				1BB5AB8E201B116300EFD656 /* Frameworks */,
+				1BB5AB8F201B116300EFD656 /* Resources */,
+				A58222B0F68783DE1CDCC487 /* [CP] Embed Pods Frameworks */,
+				34DBE50F3C12C764E07B5D0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetMacDataServices;
+			productName = GetMacDataServices;
+			productReference = 1BB5AB91201B116300EFD656 /* GetMacDataServices.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BB5AB89201B116300EFD656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mengchen Liu";
+				TargetAttributes = {
+					1BB5AB90201B116300EFD656 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1BB5AB8C201B116300EFD656 /* Build configuration list for PBXProject "GetMacDataServices" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BB5AB88201B116300EFD656;
+			productRefGroup = 1BB5AB92201B116300EFD656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BB5AB90201B116300EFD656 /* GetMacDataServices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BB5AB8F201B116300EFD656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB5AB99201B116300EFD656 /* Assets.xcassets in Resources */,
+				1BB5AB9C201B116300EFD656 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34DBE50F3C12C764E07B5D0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetMacDataServices/Pods-GetMacDataServices-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		674AD2E7C8833BC919CDAFB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetMacDataServices-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A58222B0F68783DE1CDCC487 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GetMacDataServices/Pods-GetMacDataServices-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetMacDataServices/Pods-GetMacDataServices-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BB5AB8D201B116300EFD656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB5AB97201B116300EFD656 /* ViewController.swift in Sources */,
+				1BB5AB95201B116300EFD656 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1BB5AB9A201B116300EFD656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BB5AB9B201B116300EFD656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BB5AB9F201B116300EFD656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BB5ABA0201B116300EFD656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		1BB5ABA2201B116300EFD656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C53EA1D5B4A3CDA2EA0CA76F /* Pods-GetMacDataServices.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GetMacDataServices/GetMacDataServices.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DHHWWKLNX2;
+				INFOPLIST_FILE = GetMacDataServices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liumc.GetMacDataServices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1BB5ABA3201B116300EFD656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36C4F91D0D8891004220567 /* Pods-GetMacDataServices.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GetMacDataServices/GetMacDataServices.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DHHWWKLNX2;
+				INFOPLIST_FILE = GetMacDataServices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liumc.GetMacDataServices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BB5AB8C201B116300EFD656 /* Build configuration list for PBXProject "GetMacDataServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BB5AB9F201B116300EFD656 /* Debug */,
+				1BB5ABA0201B116300EFD656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BB5ABA1201B116300EFD656 /* Build configuration list for PBXNativeTarget "GetMacDataServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BB5ABA2201B116300EFD656 /* Debug */,
+				1BB5ABA3201B116300EFD656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BB5AB89201B116300EFD656 /* Project object */;
+}

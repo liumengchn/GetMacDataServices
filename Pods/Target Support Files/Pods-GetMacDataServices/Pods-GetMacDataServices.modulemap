@@ -1,0 +1,6 @@
+framework module Pods_GetMacDataServices {
+  umbrella header "Pods-GetMacDataServices-umbrella.h"
+
+  export *
+  module * { export * }
+}
